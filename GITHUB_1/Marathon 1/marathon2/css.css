@@ -1,0 +1,171 @@
+body {
+    /* display: flex; */
+    width: 99vw;
+    margin: 0;
+  }
+  
+  header {
+    padding: 0;
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: fixed;
+    background-color: #00c8ea;
+    color: white;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container h2 {
+    color: #00c8ea;
+  }
+  
+  .profil,
+  .kegiatan,
+  .register {
+    margin: 10px;
+    padding: 20px;
+    /* border: solid red; */
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    background-color: beige;
+  }
+  
+  nav,
+  a {
+    padding-top: 0;
+    background-color: #ff7300;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a:hover {
+    color: violet;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 50px;
+    padding: 10px;
+    /* background-color: violet; */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-left {
+    /* flex: 1; */
+    width: 70%;
+    /* border: solid slateblue; */
+  }
+  
+  .col-right {
+    /* flex: 1; */
+    text-align: center;
+    width: 30%;
+    /* border: solid blue; */
+  }
+  
+  .col-right .col {
+    text-align: left;
+  }
+  
+  .col-right li {
+    list-style-type: none;
+    padding: 5px;
+    /* padding-right: 3px; */
+    margin-right: 20px;
+  }
+  
+  .col-right img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .logo {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .register .row {
+    display: flex;
+  }
+  
+  .register .kanan {
+    /* flex: 1; */
+    /* border: solid red; */
+    width: 50%;
+  }
+  
+  .register .kanan img{
+    width: 450px;
+    height: auto;
+  }
+  
+  .register .kiri {
+    /* flex: 1; */
+    width: 50%;
+  }
+  
+  .profil img,
+  .kegiatan img {
+    width: 800px;
+    height: auto;
+  }
+  
+  .register label {
+    margin-bottom: 0px;
+    /* padding: 0px; */
+  }
+  
+  .register h4 {
+    /* border: solid black 1px; */
+    margin: 0px;
+  }
+  
+  .form-control input,
+  select,
+  option {
+    width: 100%;
+    border: 10px;
+    height: 25px;
+    /* border-radius: 5px; */
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 16;
+  }
+  
+  .cursor,
+  #daftar {
+    cursor: pointer;
+  }
+  
+  .register {
+    padding: 20px;
+    background-color: rgb(101, 110, 151);
+  }
+  
+  #daftar {
+    background-color: #1e2225;
+    color: rgb(228, 179, 179);
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+  }
